@@ -1,17 +1,18 @@
-// module test
+// async test
+
+const readline = require('readline');
+
 
 const {
   pify,
   pMap,
   pAll,
   pDueue,
-  pCatchIf 
+  pCatchIf
 } = require('promise-fun');
 
-//var pify = require( 'pify' )
+//cfr.    var { x, y, z } = { x: 3, y: 5, z: 7, a: 50, b: 60, c: 70 }
 
-
-const readline = require('readline');
 
 //old school node style callbacks
 function sleepCallback( time, callback ) {
@@ -95,7 +96,7 @@ async function main() {
   console.log( "------------------------" )
 
   console.log( "Q1." )
-  
+
   rlQuestion( 'What do you think of Node.js? ' ).then(
       (answer) => console.log( 'Thank you for your valuable feedback:', answer )
     )
