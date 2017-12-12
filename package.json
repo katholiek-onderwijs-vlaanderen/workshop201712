@@ -1,0 +1,14 @@
+{
+  "name": "workshop201712",
+  "version": "1.0.0",
+  "description": "Just some examples of some of the more recent EcmaScript2015 features and additions",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Fre",
+  "license": "ISC",
+  "dependencies": {
+    "promise-fun": "^1.0.1"
+  }
+}
